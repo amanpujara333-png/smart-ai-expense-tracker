@@ -1,0 +1,112 @@
+# ========================
+# IDE & Editor Configuration
+# ========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+*.sublime-workspace
+*.sublime-project
+
+# ========================
+# Backend - Spring Boot & Java
+# ========================
+HELP.md
+target/
+build/
+.mvn/
+.m2/
+mvnw
+mvnw.cmd
+*.class
+*.jar
+*.war
+*.ear
+*.log
+logs/
+*.pid
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.asc
+release.properties
+dependency-reduced-pom.xml
+
+# ========================
+# Frontend - React/Vite/Node
+# ========================
+modern-expense-tracker-ui/node_modules/
+modern-expense-tracker-ui/dist/
+modern-expense-tracker-ui/build/
+modern-expense-tracker-ui/.env
+modern-expense-tracker-ui/.env.local
+modern-expense-tracker-ui/.env.*.local
+node_modules/
+dist/
+build/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+.env.production.local
+src/main/resources/application.properties
+src/main/resources/application-prod.properties
+!src/main/resources/application-example.properties
+
+# ========================
+# OS & System Files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# ========================
+# Build Artifacts & Cache
+# ========================
+*.tmp
+*.temp
+*.bak
+*.backup
+.cache/
+.gradle/
+out/
+generated/
+
+# ========================
+# Project Specific
+# ========================
+backend.log
+frontend.log
+*.sqlite
+*.db
+database.sqlite
+
+# ========================
+# Git
+# ========================
+.gitmodules
